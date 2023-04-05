@@ -6,5 +6,5 @@ def Hanoi(n,kaynak,hedef,yedek):
     print ("Disk",n,"Taşı, Kaynak:",kaynak," Hedef:",hedef)
     Hanoi(n-1, yedek, hedef, kaynak)
 
-n = 4
+n = 3
 Hanoi(n,'A','B','C')
